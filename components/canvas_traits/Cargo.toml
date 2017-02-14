@@ -20,6 +20,7 @@ serde = {version = "0.8", features = ["unstable"]}
 serde_derive = "0.8"
 
 [dependencies.webrender_traits]
-git = "https://github.com/servo/webrender"
+git = "https://github.com/nox/webrender"
+rev = "ipc"
 default-features = false
 features = ["serde_derive", "ipc"]

@@ -28,11 +28,13 @@ style_traits = {path = "../style_traits"}
 time = "0.1.17"
 
 [dependencies.webrender]
-git = "https://github.com/servo/webrender"
+git = "https://github.com/nox/webrender"
+rev = "ipc"
 default-features = false
 features = ["serde_derive"]
 
 [dependencies.webrender_traits]
-git = "https://github.com/servo/webrender"
+git = "https://github.com/nox/webrender"
+rev = "ipc"
 default-features = false
 features = ["serde_derive", "ipc"]

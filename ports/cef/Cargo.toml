@@ -36,7 +36,8 @@ servo_url = {path = "../../components/url"}
 style_traits = {path = "../../components/style_traits"}
 
 [dependencies.webrender_traits]
-git = "https://github.com/servo/webrender"
+git = "https://github.com/nox/webrender"
+rev = "ipc"
 default-features = false
 features = ["serde_derive", "ipc"]
 

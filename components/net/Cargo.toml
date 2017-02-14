@@ -41,7 +41,8 @@ uuid = {version = "0.3.1", features = ["v4"]}
 websocket = "0.17"
 
 [dependencies.webrender_traits]
-git = "https://github.com/servo/webrender"
+git = "https://github.com/nox/webrender"
+rev = "ipc"
 default-features = false
 features = ["serde_derive", "ipc"]
 

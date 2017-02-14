@@ -23,6 +23,7 @@ plugins = {path = "../plugins"}
 servo_config = {path = "../config"}
 
 [dependencies.webrender_traits]
-git = "https://github.com/servo/webrender"
+git = "https://github.com/nox/webrender"
+rev = "ipc"
 default-features = false
 features = ["serde_derive"]

@@ -18,6 +18,7 @@ servo_config = {path = "../config"}
 webvr_traits = {path = "../webvr_traits" }
 
 [dependencies.webrender_traits]
-git = "https://github.com/servo/webrender"
+git = "https://github.com/nox/webrender"
+rev = "ipc"
 default_features = false
 features = ["serde_derive"]
