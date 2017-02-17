@@ -54,6 +54,7 @@ pub mod hsts;
 mod http_loader;
 pub mod image_cache_thread;
 pub mod mime_classifier;
+pub mod origin_header;
 pub mod resource_thread;
 mod storage_thread;
 pub mod subresource_integrity;
